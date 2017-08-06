@@ -26,7 +26,7 @@ const MESSAGE_HTML = `
     <div class="dropdown">
       <button class="toggle message-overflow" title="Message options"></button>
       <div class="menu shadow-2">
-        <button data-action="mute">Ignorer cet&middot;te utiliseur&middot;trice</button>
+        <button data-action="mute">L'ignorer</button>
       </div>
     </div>
     <div class="identicon"></div>
