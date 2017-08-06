@@ -19,14 +19,14 @@ const BLANK_IMAGE = 'data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA='
 const MESSAGE_HTML = `
   <div class="video-container">
     <img class="filmstrip" src="${BLANK_IMAGE}"/>
-    <button class="save shadow-1" title="Save as GIF"></button>
+    <button class="save shadow-1" title="Sauvegarder comme GIF"></button>
   </div>
   <p>
   <div class="message-meta">
     <div class="dropdown">
       <button class="toggle message-overflow" title="Message options"></button>
       <div class="menu shadow-2">
-        <button data-action="mute">Mute user</button>
+        <button data-action="mute">Ignorer cet&middot;te utiliseur&middot;trice</button>
       </div>
     </div>
     <div class="identicon"></div>
