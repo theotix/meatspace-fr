@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title meatspace
+    title Meatspace Fr
     style.
       body {
         background-color: #ECECEC;
@@ -27,23 +27,23 @@ html
     meta(content='yes', name='apple-mobile-web-app-capable')
   body(class=theme == 'dark' ? 'dark' : '')
     header.shadow-1
-      p meatspace
+      p Meatspace Fr
       .actions
         p#active-users ?
         div.dropdown
           button.toggle.icon-invert.material-icons(title="Options") more_vert
           div.menu.shadow-2
-            button(data-action='unmute') Unmute all
-            button#change-theme(data-action='changeTheme') Use dark theme
-            button(data-action='about') About
+            button(data-action='unmute') Ne plus ignorer personne
+            button#change-theme(data-action='changeTheme') Utiliser le thème sombre
+            button(data-action='about') À propos
     ul#message-list.shadow-1
     div.empty-view
-      p This place looks a little empty&hellip; Send a fun message to get things started!
+      p Tiens c&apos;est un peu vide ici&hellip; Envoyez un message amusant pour commencer!
     footer
       div.preview-container.shadow-1.camera-enabled
         div.camera-disabled-message
           span.camera-disabled-icon.icon-invert.material-icons videocam_off
-          span.camera-disabled-text Please enable your webcam
+          span.camera-disabled-text Veuillez activer votre webcam
         video#preview
       .progress.shadow-1
         .circle
@@ -58,7 +58,7 @@ html
         input#message(type='text', maxlength='250', autofocus='true', autocomplete='off',
           autocorrect='on', autocapitalize='on', spellcheck='true')
         p#char-counter 0 / 250
-        button#send.icon-invert.material-icons(type='submit', title="Send") send
+        button#send.icon-invert.material-icons(type='submit', title="Capturer 2s de votre webcam et envoyer le message") Envoyer
     if trackingId
       script(type='text/javascript').
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date

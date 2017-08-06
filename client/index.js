@@ -106,8 +106,8 @@ createDropdown(document.querySelector('header .dropdown'), {
 
 const updateTheme = newTheme => {
   document.body.classList.toggle('dark', newTheme === 'dark')
-  const otherTheme = newTheme === 'light' ? 'dark' : 'light'
-  document.querySelector('#change-theme').textContent = `Use ${otherTheme} theme`
+  const otherTheme = newTheme === 'light' ? 'sombre' : 'clair'
+  document.querySelector('#change-theme').textContent = `Utiliser le thème ${otherTheme}`
 }
 
 theme.on('themeChange', updateTheme)
